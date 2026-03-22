@@ -34,12 +34,18 @@
     }
   ],
   "variables": {
-    "simple": [
-      "stardate"
-    ]
-  },
-  "max_lengths": {
-    "stardate": 9
+    "groups": {
+      "main": { "label": "Stardate" }
+    },
+    "simple": {
+      "stardate": {
+        "description": "Current TNG-style stardate value",
+        "type": "number",
+        "max_length": 9,
+        "group": "main",
+        "example": "78234.5"
+      }
+    }
   },
   "fiestaboard_version": ">=2.10.0"
 }
