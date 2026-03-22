@@ -2,7 +2,7 @@
 
 Display the current date as a Star Trek: The Next Generation (TNG) era stardate.
 
-![Stardate Display](./docs/stardate-display.png)
+![Stardate Display](./docs/board-display.png)
 
 ## Overview
 

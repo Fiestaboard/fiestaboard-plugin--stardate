@@ -35,7 +35,9 @@
   ],
   "variables": {
     "groups": {
-      "main": { "label": "Stardate" }
+      "main": {
+        "label": "Stardate"
+      }
     },
     "simple": {
       "stardate": {
@@ -47,5 +49,13 @@
       }
     }
   },
-  "fiestaboard_version": ">=2.10.0"
+  "fiestaboard_version": ">=2.10.0",
+  "screenshots": [
+    {
+      "src": "docs/board-display.png",
+      "alt": "Stardate displayed on a Vestaboard",
+      "caption": "Display the current TNG-style stardate",
+      "primary": true
+    }
+  ]
 }
