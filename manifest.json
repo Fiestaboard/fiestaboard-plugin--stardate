@@ -1,7 +1,7 @@
 {
   "id": "stardate",
   "name": "Stardate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Display the current TNG-style stardate",
   "author": "FiestaBoard Team",
   "repository": "https://github.com/Fiestaboard/fiestaboard-plugin--stardate",
@@ -57,5 +57,43 @@
       "caption": "Display the current TNG-style stardate",
       "primary": true
     }
-  ]
+  ],
+  "demo": {
+    "name": "Stardate Demo",
+    "device_type": "flagship",
+    "template": [
+      "",
+      "",
+      "Stardate",
+      "{{stardate.stardate}}",
+      "",
+      ""
+    ],
+    "line_metadata": [
+      {
+        "alignment": "center",
+        "wrap": false
+      },
+      {
+        "alignment": "center",
+        "wrap": false
+      },
+      {
+        "alignment": "center",
+        "wrap": false
+      },
+      {
+        "alignment": "center",
+        "wrap": false
+      },
+      {
+        "alignment": "center",
+        "wrap": false
+      },
+      {
+        "alignment": "center",
+        "wrap": false
+      }
+    ]
+  }
 }
