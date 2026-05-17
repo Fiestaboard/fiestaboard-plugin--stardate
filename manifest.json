@@ -1,7 +1,7 @@
 {
   "id": "stardate",
   "name": "Stardate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Display the current TNG-style stardate",
   "author": "FiestaBoard Team",
   "repository": "https://github.com/Fiestaboard/fiestaboard-plugin--stardate",
@@ -59,41 +59,64 @@
     }
   ],
   "demo": {
-    "name": "Stardate Demo",
-    "device_type": "flagship",
-    "template": [
-      "",
-      "",
-      "Stardate",
-      "{{stardate.stardate}}",
-      "",
-      ""
-    ],
-    "line_metadata": [
-      {
-        "alignment": "center",
-        "wrap": false
-      },
-      {
-        "alignment": "center",
-        "wrap": false
-      },
-      {
-        "alignment": "center",
-        "wrap": false
-      },
-      {
-        "alignment": "center",
-        "wrap": false
-      },
-      {
-        "alignment": "center",
-        "wrap": false
-      },
-      {
-        "alignment": "center",
-        "wrap": false
-      }
-    ]
+    "flagship": {
+      "name": "Stardate Demo",
+      "template": [
+        "",
+        "",
+        "Stardate",
+        "{{stardate.stardate}}",
+        "",
+        ""
+      ],
+      "line_metadata": [
+        {
+          "alignment": "center",
+          "wrap": false
+        },
+        {
+          "alignment": "center",
+          "wrap": false
+        },
+        {
+          "alignment": "center",
+          "wrap": false
+        },
+        {
+          "alignment": "center",
+          "wrap": false
+        },
+        {
+          "alignment": "center",
+          "wrap": false
+        },
+        {
+          "alignment": "center",
+          "wrap": false
+        }
+      ]
+    },
+    "note": {
+      "name": "Stardate (Note)",
+      "template": [
+        "STARDATE",
+        "{{stardate.stardate}}",
+        ""
+      ],
+      "line_metadata": [
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        },
+        {
+          "alignment": "left",
+          "wrap": false
+        }
+      ]
+    }
   }
 }
