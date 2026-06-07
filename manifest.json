@@ -1,7 +1,8 @@
 {
   "id": "stardate",
   "name": "Stardate",
-  "version": "1.1.0",
+  "version": "1.1.1",
+  "min_refresh_seconds": 10,
   "description": "Display the current TNG-style stardate",
   "author": "FiestaBoard Team",
   "repository": "https://github.com/Fiestaboard/fiestaboard-plugin--stardate",
@@ -22,6 +23,14 @@
         "description": "IANA timezone name (e.g., America/Los_Angeles)",
         "default": "America/Los_Angeles",
         "ui:widget": "timezone"
+      },
+      "refresh_seconds": {
+        "type": "integer",
+        "title": "Refresh Interval (seconds)",
+        "description": "How often to recompute the stardate",
+        "default": 60,
+        "minimum": 10,
+        "maximum": 3600
       }
     }
   },
