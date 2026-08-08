@@ -83,8 +83,9 @@
     {
       "device_type": "note",
       "rows": [
-        "STARDATE",
-        "78234.5"
+        "{67}{68} STARDATE",
+        "78234.5",
+        "ENGAGE"
       ]
     }
   ],
